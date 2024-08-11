@@ -1,0 +1,9 @@
+__pycache__/
+server.py
+download_image.py
+00_archive
+secrets
+.env
+json
+images
+01_get_information
