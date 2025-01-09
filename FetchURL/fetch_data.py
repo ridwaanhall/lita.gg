@@ -52,4 +52,5 @@ class DataFetcher:
                 return response.json(), response.status_code
         except Exception as e:
             print(f"An error occurred: {e}")
+            print(f"URL: {self.url}")
             return e, None
